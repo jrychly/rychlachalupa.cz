@@ -1,0 +1,1 @@
+rychlachalupa.cz
