@@ -4,31 +4,26 @@ body {
   font-family: 'Open Sans';
 }
 
-.navbar {
-  display: flex;
-  flex-wrap: wrap;
-  min-height: 5vh;
-  padding: 25px;
+.menu {
+  position: absolute;
+  width: 25%;
+  height: 100vh;
   background-color: #EFEBE9;
-  color: #795548;
-  font-size: 1.5em;
 }
 
-.navbar-left {
-  width: 50%;
+.content {
+  padding-left: 28vw;
 }
 
-.navbar-right {
-  width: 50%;
-  text-align: right;
-}
-
-@media screen and (max-width: 600px) {
-  .navbar-right {
+@media (max-width: 900px) {
+  .menu {
     width: 100%;
+    position: relative;
+    height: auto;
   }
-  .navbar-left {
-    width: 100%;
+  .content {
+    padding-left: 0vw;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
