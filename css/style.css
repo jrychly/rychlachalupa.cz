@@ -78,10 +78,28 @@ body {
   width: 55%;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px;
-  background-color: #795548;
+  padding: 15px;
+  background-color: rgba(44, 7, 3, 0.8);
+  color: #fff;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+
+.footer {
+  padding: 25px;
+  margin-left: 20%;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
 }
 
 @media (max-width: 900px) {
