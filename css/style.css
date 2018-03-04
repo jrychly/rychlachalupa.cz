@@ -11,14 +11,14 @@ body {
 .menu {
   width: 20%;
   position: fixed;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #000000;
   color: #fff;
   text-align: center;
 }
 
 .menu-title {
-  padding: 40px;
+  padding-top: 120px;
   font-size: 2em;
 }
 
@@ -43,10 +43,14 @@ body {
 
 .content {
   width: 80%;
-  margin-left: 20%;
-  padding: 60px;
   height: 100vh;
+  margin-left: 20%;
   text-align: center;
+  background: url("../img/testbg.jpg");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
@@ -54,22 +58,13 @@ body {
   padding-top: 20vh;
 }
 
-.header-head {
-  width: 55%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  background-color: #795548;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
 .header-title {
-  width: 80%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  padding: 5px;
-  background-color: #795548;
+  padding: 15px;
+  background-color: rgba(44, 7, 3, 0.8);
+  color: #fff;
   font-size: 2em;
   border-radius: 15px;
 }
@@ -109,10 +104,21 @@ a:hover {
   .menu {
     position: relative;
     width: 100%;
-    height: auto;
+    min-height: auto;
+  }
+  .menu-title {
+    padding-top: 35px;
   }
   .content {
     width: 100%;
+    margin-left: 0;
+  }
+  .header {
+    padding-top: 10vh;
+    width: 100%;
+    font-size: 1.3em;
+  }
+  .footer {
     margin-left: 0;
   }
 }
