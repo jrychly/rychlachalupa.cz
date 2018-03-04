@@ -41,12 +41,20 @@ body {
   color: #cfc0ba;
 }
 
+.menu-tel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10vh;
+  font-size: 1.5em;
+}
+
 .content {
   width: 80%;
   height: 100vh;
   margin-left: 20%;
   text-align: center;
-  background: url("../img/testbg.jpg");
+  background: url("../img/back.jpg");
   background-size: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,6 +116,10 @@ a:hover {
   }
   .menu-title {
     padding-top: 35px;
+  }
+  .menu-tel {
+    margin-top: 10vh;
+    position: relative;
   }
   .content {
     width: 100%;
