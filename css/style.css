@@ -12,7 +12,7 @@ body {
   width: 20%;
   position: fixed;
   min-height: 100vh;
-  background-color: #000000;
+  background-color: #110c0a;
   color: #fff;
   text-align: center;
 }
@@ -23,7 +23,8 @@ body {
 }
 
 .menu-items {
-  padding: 70px;
+  width: 100%;
+  padding-top: 70px;
   text-align: center;
 }
 
@@ -62,37 +63,58 @@ body {
 }
 
 .header {
-  font-size: 1.5em;
+  font-size: 2.5em;
   padding-top: 20vh;
 }
 
 .header-title {
-  width: 70%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
-  background-color: rgba(44, 7, 3, 0.8);
-  color: #fff;
-  font-size: 2em;
-  border-radius: 15px;
 }
 
-.header-bot {
-  width: 55%;
+.header-buttons {
+  margin-top: 25px;
+}
+
+.single {
+  height: 30vh;
+  width: 80%;
+  margin-left: 20%;
+  text-align: center;
+  background: url("../img/back.jpg");
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  flex-direction: column-reverse;
+  font-size: 2.8em;
+  color: #fff;
+}
+
+.single-title {
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
-  background-color: rgba(44, 7, 3, 0.8);
-  color: #fff;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  margin-top: 12vh;
+}
+
+.single-content {
+  width: 80%;
+  margin-left: 20%;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.map {
+  width: 80%;
+  margin-left: 20%;
 }
 
 .footer {
   padding: 25px;
   margin-left: 20%;
   text-align: center;
-  background-color: #000000;
+  background-color: #110c0a;
   color: #fff;
 }
 
@@ -132,7 +154,7 @@ a:hover {
     padding-top: 35px;
   }
   .menu-tel {
-    margin-top: 10vh;
+    margin-top: 15vh;
     position: relative;
   }
   .content {
@@ -143,6 +165,9 @@ a:hover {
     padding-top: 10vh;
     width: 100%;
     font-size: 1.3em;
+  }
+  .header-title {
+    width: 75%;
   }
   .footer {
     margin-left: 0;
