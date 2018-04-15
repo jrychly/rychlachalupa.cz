@@ -6,7 +6,5 @@ Just clone and boost it ;)
 ## Technologies
 - HTML and CSS
     - SASS
-- Angular
-- WordPress
 
 **Uveďte původ-Neužívejte komerčně 3.0 Česká republika (CC BY-NC 3.0 CZ)**
